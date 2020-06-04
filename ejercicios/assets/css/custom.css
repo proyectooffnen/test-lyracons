@@ -47,4 +47,5 @@ nav.navbar .nav>li>a:focus, nav.navbar .nav>li>a:hover{
 .dropdown:hover .dropdown-content {display: block;}
 .dropdown:hover > a{background-color: #010204; color: #FFF !important;}
 
+/*MSG REMOVE*/
 h1.msg-remove{padding: 15px; font-weight: 600; text-align: center;}
