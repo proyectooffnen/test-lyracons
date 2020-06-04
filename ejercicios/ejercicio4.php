@@ -40,17 +40,17 @@
                         <ul class="nav navbar-nav">
                             <li><a href="#" onclick="deleteItems()">Inicio</a></li>
                             <li class="dropdown productos">
-                                <a href="productos.html" class="prod">Productos</a>
+                                <a href="#" class="parent">Productos</a>
                                 <div class="dropdown-content">
                                     <?php foreach ($sub_menu as $value): ?>
                                         <a href="<?php echo $value['url'] ?>"><?php echo $value['titulo'] ?></a>
                                     <?php endforeach; ?>
                                 </div>
                             </li>
-                            <li><a href="nosotros.html" onclick="msgLogo(event)">Nosotros</a></li>
-                            <li><a href="compras.html" onmouseover="changeColorNav('navbar-default', 'navbar-yellow')" onmouseleave="changeColorNav('navbar-yellow', 'navbar-default')">Compras</a></li>
+                            <li><a href="#" onclick="msgLogo(event)">Nosotros</a></li>
+                            <li><a href="#" onmouseover="changeColorNav('navbar-default', 'navbar-yellow')" onmouseleave="changeColorNav('navbar-yellow', 'navbar-default')">Compras</a></li>
                             <li class="dropdown ejercicios">
-                                <a href="#" class="prod">Ejercicios</a>
+                                <a href="#" class="parent">Ejercicios</a>
                                 <div class="dropdown-content">
                                     <a href="ejercicio1.html">Ejercicio #1</a>
                                     <a href="ejercicio2.html">Ejercicio #2</a>
